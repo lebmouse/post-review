@@ -1,0 +1,227 @@
+/*위에 분홍색부분 전체*/
+.navigation {
+  background-color: FCF6FC;
+  border-bottom: 1px solid FCF6FC;
+  padding: 150px 20px 15px 20px;
+}
+
+/*위부분 로고*/
+.nav-container-logo {
+  display: inline;
+  position: relative;
+  bottom: 120px;
+  left: 1%;
+}
+
+/*위부분 텍스트 부분*/
+.nav-container-text {
+  display: inline;
+  font-size: 25px;
+  font-family: Georgia, "Noto serif KR", serif;
+}
+
+/*위부분 버튼 부분*/
+.nav-container-bt {
+  display: inline;
+  position: relative;
+  bottom: 205px;
+  left: 90%;
+}
+
+#writing {
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  font-size: 5px;
+  padding: 5px;
+}
+
+#login {
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  font-size: 5px;
+  padding: 5px;
+}
+
+#signup {
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 20px 20px 20px 20px;
+  font-size: 5px;
+  padding: 5px;
+}
+
+/*아랫부분 전체*/
+.post {
+  position: relative;
+  top: 3%;
+  height: 90%;
+}
+
+/*왼쪽 사진*/
+
+.leftImg {
+  width: 40%;
+  height: 90%;
+  position: relative;
+  left: 10%;
+  right: 50%;
+}
+
+/*오른쪽 박스전체*/
+.right-container {
+  background-color: white;
+  width: 40%;
+  height: 90%;
+  position: relative;
+  top: -90%;
+  left: 50%;
+  right: 10%;
+}
+
+/*첫번째 박스*/
+.post-head {
+  background-color: white;
+  border: 2px solid lightgray;
+  border-bottom: 0px;
+  padding: 3% 3% 3% 3%;
+  height: 15%;
+  width: 100%;
+}
+
+.post-head-container {
+  position: relative;
+
+}
+
+.post-head-profile {
+  position: relative;
+  left: 13%;
+  top: -50px;
+}
+
+.post-head-profileImg {
+  width: 10%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.post-head-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.post-head-detail {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+/*첫번째 박스-오른쪽 끝*/
+.post-like {
+  position: relative;
+  text-align: right;
+  top: -90px;
+}
+
+.post-like-btn {
+  position: relative;
+  left: -20px;
+
+}
+
+.post-like-number {
+  text-align: right;
+}
+
+.heartBtn {
+  font-size: 20px;
+  color: rgb(225, 19, 139);
+}
+
+/*두번째 박스*/
+.post-infor {
+  border: 2px solid lightgray;
+  border-bottom: 0px;
+  padding: 2% 3% 5% 3%;
+  height: 8%;
+}
+
+.inforBtn {
+  font-size: 90%;
+  color: rgb(179, 72, 218);
+}
+
+.post-infor-container {
+  width: 100%;
+  justify-content: space-between;
+  font-size: 90%;
+}
+
+.post-hastag {
+  position: relative;
+  left: 25%;
+}
+
+/*세번째 박스*/
+.post-contents {
+  border: 2px solid lightgray;
+  border-bottom: 0px;
+  padding: 2% 3% 3% 3%;
+  height: 67%;
+}
+
+.post-contents-container {
+  font-size: 12px;
+}
+
+.post-comment {
+  position: relative;
+  top: -18px;
+  left: 10px;
+  height: 10px;
+}
+
+.post-comment-img {
+  width: 8%;
+  border-radius: 100%;
+}
+
+.post-comment-name {
+  font-weight: bolder;
+}
+
+.post-commentDetail {
+  position: relative;
+  top: -45px;
+  left: 53px;
+}
+
+.post-comment-content2 {
+  position: relative;
+  top: -14px;
+  left: 47px;
+}
+
+.post-comment-date {
+  color: lightgray;
+}
+
+.post-comment-btn {
+  color: lightgray;
+}
+
+/*네번째 박스*/
+.post-submit {
+  border: 2px solid lightgray;
+  padding: 3% 3% 3% 3%;
+  height: 10%;
+  width: 100%;
+}
+
+.post-submit-show {
+  color: rgb(39, 142, 216);
+  font-weight: bold;
+  position: relative;
+  left: 70%;
+}

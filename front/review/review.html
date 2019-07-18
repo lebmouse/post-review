@@ -1,0 +1,181 @@
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--css는 따로 파일을 만들었습니다-->
+    <link rel="stylesheet" href="./review.css">
+    <title>Document</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+    <!--위에 분홍색 부분-->
+    <div class="navigation">
+        <div class="nav-container">
+            <!--로고-->
+            <span class="nav-container-logo">
+                <img class="logoimg" src="./img/봉투로고.png" alt="메인페이지로 갑니다" width="100" />
+            </span>
+            <!--위 text part-->
+            <center>
+                <span class="nav-container-text">
+                    <p>당신의 보람있었던 봉사를 기록해보세요.</p>
+                </span>
+            </center>
+            <!--위에 버튼-->
+            <span class="nav-container-bt">
+                <button id="writing">작성하기</button>
+                <button id="login">로그인</button>
+                <button id="signup">회원가입</button>
+            </span>
+        </div>
+    </div>
+    <div class="post">
+        <!--왼쪽 박스사진-->
+        <div class="left-container">
+            <img class="leftImg" src="/img/picture.PNG" alt="">
+        </div>
+        <!--오른쪽 박스-->
+        <div class="right-container">
+            <!--첫번째 박스-->
+            <div class="post-head">
+                <span class="post-head-container">
+                    <span class="post-headImg">
+                        <img class="post-head-profileImg" src="./img/profile1.PNG" alt="">
+                    </span>
+                    <span class="post-head-profile">
+                        <div class="post-head-name">민혁아빠</div>
+                        <div class="post-head-detail">오늘은 코딩봉사를 다녀왔어요~^^</div>
+                    </span>
+                    <span class="post-like">
+                        <div class="post-like-btn">
+                            <i class="fas fa-heart heartBtn"></i>
+                        </div>
+                        <div class="post-like-number">좋아요 4개</div>
+                    </span>
+                </span>
+            </div>
+            <!--두번째 박스-->
+            <div class="post-infor">
+                <div class="post-infor-container">
+                    <span class="post-location">
+                        <i class="fas fa-map-marker-alt inforBtn"></i>
+                        경상북도 포항시 조월마을회관
+                    </span>
+                    <span class="post-hashtag">
+                        <i class="fas fa-hashtag inforBtn"></i>
+                        프로그래밍 교육
+                    </span>
+                </div>
+            </div>
+            <!--세번째 박스-->
+            <div class="post-contents">
+                <div class="post-contents-container">
+                    <div class="post-content">
+                        학생들과 즐거운 시간을 보냈어요~<br>
+                        처음에는 저도 쑥쓰러웠지만 열심히 하는 학생들을 보며 저도 재미있게 교육에<br>
+                        임했네요^^
+                    </div>
+                    <!--줄바꿈-->
+                    <p></p>
+                    <div class="post-content">
+                        <span class="post-comment-profile">
+                            <img class="post-comment-img" src="/img/gray.PNG" alt="">
+                        </span>
+                        <span class="post-comment">
+                            <span class="post-comment-name">
+                                임민혁
+                            </span>
+                            <span class="post-comment-content1">
+                                너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았<br>
+                            </span>
+                            <span class="post-comment-content2">
+                                겠어요~너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았<br>
+                                겠어요~너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았
+                            </span>
+                        </span>
+                        <!--줄바꿈-->
+                        <p></p>
+                        <span class="post-commentDetail">
+                            <span class="post-comment-date">12분전</span>
+                            <span class="post-comment-btn">답글달기</span>
+                        </span>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-comment-profile">
+                            <img class="post-comment-img" src="/img/gray.PNG" alt="">
+                        </span>
+                        <span class="post-comment">
+                            <span class="post-comment-name">
+                                임민혁
+                            </span>
+                            <span class="post-comment-content1">
+                                너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았<br>
+                            </span>
+                            <span class="post-comment-content2">
+                                겠어요~너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았<br>
+                                겠어요~너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았
+                            </span>
+                        </span>
+                        <!--줄바꿈-->
+                        <p></p>
+                        <span class="post-commentDetail">
+                            <span class="post-comment-date">12분전</span>
+                            <span class="post-comment-btn">답글달기</span>
+                        </span>
+                    </div>
+                    <div class="post-content">
+                        <span class="post-comment-profile">
+                            <img class="post-comment-img" src="/img/gray.PNG" alt="">
+                        </span>
+                        <span class="post-comment">
+                            <span class="post-comment-name">
+                                임민혁
+                            </span>
+                            <span class="post-comment-content1">
+                                너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았<br>
+                            </span>
+                            <span class="post-comment-content2">
+                                겠어요~너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았<br>
+                                겠어요~너무 좋았겠어요~너무 좋았겠어요~너무 좋았겠어요~너무좋았
+                            </span>
+                        </span>
+                        <!--줄바꿈-->
+                        <p></p>
+                        <span class="post-commentDetail">
+                            <span class="post-comment-date">12분전</span>
+                            <span class="post-comment-btn">답글달기</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!--네번째 박스-->
+            <div class="post-submit">
+                <span class="post-submit-comment">너무 좋았겠어요~</span>
+                <span class="post-submit-show">
+                    게시
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

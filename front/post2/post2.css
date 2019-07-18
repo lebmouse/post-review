@@ -1,0 +1,92 @@
+.container1 {
+    background-color: FCF6FC;
+    border-bottom: 1px solid FCF6FC;
+    padding: 150px 20px 15px 20px;
+}
+
+.logoimg {
+    display: inline;
+    position: relative;
+    bottom: 120px;
+    left: 1%;
+}
+
+.con1text {
+    display: inline;
+    font-size: 25px;
+    font-family: Georgia, "Noto serif KR", serif;
+}
+
+.nav-container-text {
+    display: inline;
+    font-size: 25px;
+    font-family: Georgia, "Noto serif KR", serif;
+}
+
+/*위부분 버튼 부분*/
+.nav-container-bt {
+    display: inline;
+    position: relative;
+    bottom: 205px;
+    left: 90%;
+}
+
+#writing {
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5px;
+    padding: 5px;
+}
+
+#login {
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5px;
+    padding: 5px;
+}
+
+#signup {
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5px;
+    padding: 5px;
+}
+
+.form1 {
+    background-color: #585858;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+.plus {
+    position: relative;
+    top: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+}
+
+.formtag {
+    position: relative;
+    top: -40%;
+    right: -47%;
+    width: 40%;
+    height: 70%;
+}
+
+.title {
+    width: 80%;
+    height: -10%;
+    margin-bottom: 0.5%;
+}
+
+.msg {
+    width: 80%;
+    height: 66%;
+}

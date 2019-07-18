@@ -1,0 +1,78 @@
+<html lang="ko">
+
+<head>
+  <title>bongtoopost2</title>
+  <link rel="stylesheet" href="./post2.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <div class="container1">
+    <!--봉투 로고와 "당신의 보람있었던 봉사를 기록해보세요의 배경색인 보라색 컨테이너 입니다-->
+    <img class="logoimg" src="./img/봉투로고.png" alt="메인페이지로 갑니다" width="100" />
+    <!-- 맨위 왼쪽에 있는 봉투 로고입니다-->
+    <center>
+      <span class="con1text">당신의 보람있었던 봉사를 기록해보세요</span>
+      <!--"당신의 보람있었던 봉사를 기록해 보세요" 텍스트 입니다-->
+    </center>
+    <span class="nav-container-bt">
+      <button id="writing">작성하기</button>
+      <button id="login">로그인</button>
+      <button id="signup">회원가입</button>
+    </span>
+  </div>
+
+  <div class="form1" style="z-index:1;">
+    <img class="plus" src="./img/이미지.png" alt="이미지를 추가해주세요" style="z-index:2;" />
+    <!-- 두개의 메인 콘텐츠중 사진을 추가하는 왼쪽 창의 플러스 버튼입니다-->
+  </div>
+  <!-- 두개의 메인 콘텐츠중 사진을 추가하는 왼쪽 창의 어두운 회색 배경입니다 -->
+
+  <div class="formtag">
+    <form action="" method="POST">
+      <div>
+        <input class="title" type="text" placeholder="제목을 입력해주세요" />
+      </div>
+      <!-- 폼 태그 내에서 제목을 작성하는 창을 의미합니다-->
+      <div>
+        <textarea class="msg" placeholder="내용을 입력해주세요"></textarea>
+      </div>
+      <!-- 폼 태그 내에서 내용을 작성하는 창을 의미합니다-->
+      <button type="button" class="btn btn-outline-danger" style="border-radius:20px; background-color:#fcf6fd; 
+            border-color: #A239C0;
+            color:#A239C0;
+            font-size:3%;
+            margin-top:1%;
+            position: relative;
+            left: 65%;
+            width: 15%; height:5%">
+        등록
+      </button>
+      <!-- 아래의 두 버튼 중 등록버튼을 의미합니다 -->
+      <button type="button" class="btn btn-outline-dark" style="border-radius:20px; background-color:#f1f1f1; 
+            border-color: #A0A0A0;
+            color:BLACK;
+            font-size:3%;
+            margin-top:1%;
+            position: relative;
+            left: 32%;
+            width:15%; height:5%;
+          ">
+        임시저장
+      </button>
+      <!-- 아래의 두 버튼 중 임시저장 버튼을 의미합니다-->
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+.logoImg {
+    display: inline;
+    position: relative;
+
+}
+
+.main-btn {
+    display: inline;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+
+#writing {
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5px;
+    padding: 5px;
+}
+
+#login {
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5px;
+    padding: 5px;
+}
+
+#signup {
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 5px;
+    padding: 5px;
+}
+
+.bnfcr_logo {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.category {
+    text-align: center;
+    color: #a239c0;
+    font-weight: bold;
+    font-size: 120%;
+    margin: 0%;
+}
+
+.bnfcr_btn {
+    height: 25px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 4px;
+}
+
+.bnfcr_btn {
+    border: 1px solid #a239c0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #a239c0;
+}
+
+.bnfcr_btn:hover {
+    color: white;
+    background-color: #a239c0;
+}
+
+.Section {
+    padding: 50px;
+}
+
+.m {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 3%;
+}
+
+.m input {
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.actvt_logo {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.actvt_btn {
+    height: 25px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 4px;
+}
+
+.actvt_btn {
+    border: 1px solid #a239c0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #a239c0;
+}
+
+.actvt_btn:hover {
+    color: white;
+    background-color: #a239c0;
+}
+
+.m1 {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 3%;
+}
+
+.m2 {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 3%;
+}
+
+.loctn_logo {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.nextPage {
+    height: 25px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 4px;
+}
+
+.nextPage {
+    border: 1px solid #a239c0;
+    color: #a239c0;
+    background-color: #fcf6fd;
+}
+
+.nextPage {
+    position: absolute;
+    right: 16px;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.nextPage:hover {
+    color: white;
+    background-color: #a239c0;
+}
+
+.container {
+    position: relative;
+}
+
+select {
+    width: 300px;
+    padding: 3px;
+    margin: 6px;
+    border: 1px solid #999;
+    font-family: inherit;
+    /*background: url('arrow.jpg') no-repeat 95% 50%; ->화살표이미지**/
+    border-radius: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #a239c0;
+    background-color: rgba(0, 0, 0, 0);
+    background: url("화살표.png") no-repeat 95% 50%;
+    background-size: 3%;
+    color: rgb(54, 54, 54);
+}
+
+select::-ms-expand {
+    display: none;
+}
